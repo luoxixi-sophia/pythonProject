@@ -5,7 +5,6 @@ import base64
 from Crypto.Cipher import AES
 from Crypto.Hash import MD5
 
-
 class Youdao():
     def __init__(self):
         self.url = 'https://dict.youdao.com/webtranslate'
